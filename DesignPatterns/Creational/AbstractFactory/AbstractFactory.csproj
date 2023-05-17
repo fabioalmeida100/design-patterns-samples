@@ -7,10 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Aircrafts\Implementation\" />
-    <Folder Include="Factories\" />
-    <Folder Include="LandVehicles\Implementation\" />
-  </ItemGroup>
-
 </Project>

@@ -6,9 +6,9 @@ namespace FactoryMethod
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Escolha o tipo de transporte: ");
-            Console.WriteLine("1 - Carro");
-            Console.WriteLine("2 - Moto");
+            Console.WriteLine("Choose your vehicle type: ");
+            Console.WriteLine("1 - Car");
+            Console.WriteLine("2 - Motorcycle");
             Console.WriteLine("3 - Bike (UberEats)");
 
             var option = Console.ReadLine();
@@ -25,7 +25,7 @@ namespace FactoryMethod
                     new BikeTransport().CreateTransport();
                     break;
                 default:
-                    Console.WriteLine("Opção inválida.");
+                    Console.WriteLine("Invalid option!");
                     break;
             }
 

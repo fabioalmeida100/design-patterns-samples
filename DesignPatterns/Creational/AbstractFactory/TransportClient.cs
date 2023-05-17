@@ -1,12 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using AbstractFactory.Aircrafts;
+using AbstractFactory.Factories;
+using AbstractFactory.LandVehicles;
 
 namespace AbstractFactory
 {
-    internal class TransportClient
+    public class TransportClient
     {
+        private ILandVehicle _vehicle;
+        private IAircraft _aircraft;
+        
+        public TransportClient(ITransportFactory factory)
+        {
+            _vehicle = factory.CreateVehicle();
+            _aircraft = factory.CreateAircraft();
+        }
+
+        public void StartRoute()
+        {
+            _vehicle.StartRoute();
+            _aircraft.StartRoute();
+        }
     }
 }
