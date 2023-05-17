@@ -1,5 +1,4 @@
 ﻿using FactoryMethod.Factories.Implementation;
-using System;
 
 namespace FactoryMethod
 {
