@@ -12,9 +12,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "Creation
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "Creational\FactoryMethod\FactoryMethod.csproj", "{214CD6B5-84EE-4DC8-88B4-7C7F8049FEDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Creational\Singleton\Singleton.csproj", "{62FDE724-9430-46BA-BF29-C3ED6047F43D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Creational\Singleton\Singleton.csproj", "{62FDE724-9430-46BA-BF29-C3ED6047F43D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Creational\Builder\Builder.csproj", "{CD93AFC6-DB92-40C9-A786-C8E4946026EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Creational\Builder\Builder.csproj", "{CD93AFC6-DB92-40C9-A786-C8E4946026EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Structural\Adapter\Adapter.csproj", "{50D412D1-AA14-47F4-82E8-D7652B9FB351}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{E7E8584D-FD57-4384-8576-ABE656B0D803}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Structural\Bridge\Bridge.csproj", "{A35B6992-F321-4120-94A3-0BE7FD4AEAB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +44,14 @@ Global
 		{CD93AFC6-DB92-40C9-A786-C8E4946026EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD93AFC6-DB92-40C9-A786-C8E4946026EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD93AFC6-DB92-40C9-A786-C8E4946026EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50D412D1-AA14-47F4-82E8-D7652B9FB351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50D412D1-AA14-47F4-82E8-D7652B9FB351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50D412D1-AA14-47F4-82E8-D7652B9FB351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50D412D1-AA14-47F4-82E8-D7652B9FB351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A35B6992-F321-4120-94A3-0BE7FD4AEAB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A35B6992-F321-4120-94A3-0BE7FD4AEAB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A35B6992-F321-4120-94A3-0BE7FD4AEAB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A35B6992-F321-4120-94A3-0BE7FD4AEAB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +61,8 @@ Global
 		{214CD6B5-84EE-4DC8-88B4-7C7F8049FEDF} = {5AB19B5E-599B-4400-9416-F8E9B522976F}
 		{62FDE724-9430-46BA-BF29-C3ED6047F43D} = {5AB19B5E-599B-4400-9416-F8E9B522976F}
 		{CD93AFC6-DB92-40C9-A786-C8E4946026EA} = {5AB19B5E-599B-4400-9416-F8E9B522976F}
+		{50D412D1-AA14-47F4-82E8-D7652B9FB351} = {E7E8584D-FD57-4384-8576-ABE656B0D803}
+		{A35B6992-F321-4120-94A3-0BE7FD4AEAB7} = {E7E8584D-FD57-4384-8576-ABE656B0D803}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {476A843D-6538-4DA2-9AA4-DD5CA81DC396}
