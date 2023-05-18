@@ -6,7 +6,7 @@ namespace Bridge.Platforms
     {
         public TwitchTV()
         {
-            Console.WriteLine("TwitchTV: transmission started.");
+            Console.WriteLine("TwitchTV: transmission started...");
         }
         public void AuthToken()
         {

@@ -6,7 +6,7 @@ namespace Bridge.Platforms
     {
         public Facebook()
         {
-            Console.WriteLine("Facebook: transmission started.");
+            Console.WriteLine("Facebook: transmission started...");
         }
         public void AuthToken()
         {
