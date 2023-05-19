@@ -1,5 +1,9 @@
 # Design patterns samples
 
+## Last update
+- 2023-05-18 - Added the `Behavioral` folder with the `Chain of Responsibility` pattern. *Pending*: add all UML diagrams and README for explain the samples.
+
+## About this repo
 This repository contains samples of design patterns in C#. Use for learning purposes.
 
 ## What is a design pattern?
@@ -21,8 +25,8 @@ There are three types of design patterns:
 Each pattern is in a separate folder. The folder contains a `README.md` file with a description of the pattern and a sample of the pattern in C#.
 
 - The creational patterns are in the `Creational` folder.
-- The structural patterns are in the `Structural` folder (in soon).
-- The behavioral patterns are in the `Behavioral` folder (in soon).
+- The structural patterns are in the `Structural` folder.
+- The behavioral patterns are in the `Behavioral` folder.
 
 Open the solution in Visual Studio 2022 and run the specific project that you want understand.
 
