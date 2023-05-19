@@ -43,5 +43,4 @@ SOLID principles are also important to learn design patterns, because some patte
 
 ---
 By https://www.fabiodeveloper.com - Every person is unique! Enjoy it :-) - **MIT license - 2023**
-Enjoy world
 
