@@ -1,4 +1,4 @@
-# Design pattners samples
+# Design patterns samples
 
 This repository contains samples of design patterns in C#. Use for learning purposes.
 
